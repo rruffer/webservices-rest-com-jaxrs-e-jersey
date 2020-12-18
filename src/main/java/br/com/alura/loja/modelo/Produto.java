@@ -1,6 +1,8 @@
 package br.com.alura.loja.modelo;
 
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement
 public class Produto {
 
 	private double preco;
